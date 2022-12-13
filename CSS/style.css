@@ -1,0 +1,196 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Classes and Ids*/
+
+.p-text {
+    color: lightgreen
+}
+
+#app-title {
+    color: purple;
+    font-size: 40px;
+}
+
+/*Especific*/
+
+div p {
+    color: red;
+}
+
+.p-inside-div {
+    color: blue;
+}
+
+#p-super-especific {
+    color: green;
+}
+
+/*Colors*/
+
+.name {
+    color: orange
+}
+
+.hexa {
+    color: #6a40c4
+}
+
+.rgba {
+    color: rgba(17, 197, 214, 1);
+    font-size: 40px;
+}
+
+/*Backgrounds*/
+
+.div-background {
+    background-image: url('img/por-do-sol.jpg');
+    height: 300px;
+
+}
+
+.background-title {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+
+}
+
+/*Font*/
+
+.family {
+    color: #000;
+    font-size: 40px;
+}
+
+.family.serif {
+    color: green;
+}
+
+.serif {
+    font-family: "Times New Roman";
+}
+
+.sans-serif {
+    font-family: "Arial";
+}
+
+.monospace {
+    font-family: "Courier new";
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.variant {
+    font-variant: small-caps;
+}
+
+/*Box model*/
+
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /*General Padding*/
+    /*padding: 20px;*/
+    /*Especific Padding*/
+    /*padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;*/
+    /*Especific Gruped*/
+    /*padding: 30px 20px 5px 10px;*/
+    /*Especific 3 Sizes Grouped -  top, right-left, botton */
+    padding: 30px 20px;
+    border: 10px solid #000;
+    /*border: 3px dashed blue;
+    border: 3px dotted blue;
+    border: 3px double blue;*/
+    border-radius: 15px;
+    /* margin: 50px;
+    margin: 5px 10px 10px 7px; */
+    margin: 100px;
+    /* display: none; */
+    /* display: inline;
+    display: inline-block; */
+    display: block;
+    
+}
+
+.paragraph-box {
+    color: #000;
+    margin: 0;
+
+}
+
+/*Positions*/
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: purple;
+    right:0;
+    top: 0;
+}
+
+.mini-div {
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+.fixed {
+    position: fixed;
+    height: 300px;
+    background-color: yellow;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sticky {
+    position: sticky;
+    background-color: gray;
+    top: 50px;
+
+}
